@@ -1,9 +1,125 @@
 body {
-    background-color:#b6b6c3;
+    background-color:#dddddd;
+    background-color: #90349085;
+    margin: 0px;
+    padding: 0px;
 }
 h1 {
     font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
 }
-p {
-    color:#bc3fcc;
+
+.main-page {
+    display:flex;
+    flex-direction: row;
+    justify-content: space-around;
+    height:100%;
+    justify-content: start;
 }
+
+.profile {
+    margin-top:30px;
+    width:200px;
+    border-radius:50%;
+    object-fit:contain;
+}
+
+.dan1 {
+    font-family: "Noto Sans KR", sans-serif;
+    font-optical-sizing: auto;
+    font-weight: 600;
+    font-style: normal;
+
+    display:flex;
+    flex-direction: column;
+    align-items: center;
+    padding: 20px;
+    background-color: #1f497dff;
+    flex-basis: 350px;
+    color:#ffffff;
+    .dan1-para1 {
+        width:90%;
+        margin:40px 20px 20px 20px;
+        padding:10px;
+
+        .title {
+            font-weight: 600;
+            font-size: 20px;
+        }
+        .dan1-para1-style1 {
+            width:100%;
+
+            
+            margin-bottom: 20px;
+            display:flex;
+            
+            font-weight:300;
+
+            .key {
+                display:flex;
+                justify-content: center;
+                align-items: flex-start;
+                padding-top:5px;
+                flex-basis:60px;
+
+            }
+            .content {
+                flex-basis: 260px;
+            }
+        }
+    }
+}
+
+.dan2 {
+    font-family: "Noto Sans KR", sans-serif;
+    font-optical-sizing: auto;
+    font-weight: 600;
+    font-style: normal;
+
+    padding:40px 20px 20px 40px;
+    background-color:#dddddd;
+    flex-basis:400px;
+
+    .dan2-header {
+        
+        display:flex;
+        flex-direction: column;
+
+        .title-name {
+            font-size:40px;
+            font-weight: 600;
+            color:#1f497dff;
+            padding-bottom: 10px;
+        }
+
+        .subtitle-name {
+            padding:10px 10px 10px 0px;
+            color:#6696d1ff;
+            font-size:20px;
+        }
+    }
+
+    .dan2-body {
+        padding-top:60px;
+
+        .dan2-body-style1 {
+            .title {
+                color:#6696d1ff;
+                font-size:18px;
+            }
+
+            .content {
+                color:#1c3e68ff;
+                font-weight: 400;
+                font-size:16px;
+            }
+        }
+    }
+}
+
+.line {
+    width: 53px;
+    height: 0;
+    border: 1px solid #C4C4C4;
+    margin: 0px;
+    display:inline-block;
+  }
